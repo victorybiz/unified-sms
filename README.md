@@ -52,7 +52,7 @@ use UnifiedSMS;
 You're good to go, send sms
 ```php
 $msg = [
-			'from' => 'Your sender ID here',
+			'from' => 'Your sender ID here', // default_sender_id set in config file will be used if this line is removed
 			'to' => 'The recipent mobile number, international format without the leading plus (+)',
 			'text' => 'Your text message here.',
 	   ];
@@ -159,7 +159,7 @@ $unifiedSMS = new \Victorybiz\UnifiedSMS\UnifiedSMS($unified_sms_config);
 You're good to go, send sms
 ```php
 $msg = [
-			'from' => 'Your sender ID here',
+			'from' => 'Your sender ID here', // default_sender_id set in config file will be used if this line is removed
 			'to' => 'The recipent mobile number, international format without the leading plus (+)',
 			'text' => 'Your text message here.',
 	   ];
