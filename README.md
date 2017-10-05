@@ -1,7 +1,7 @@
 # unified-sms
 Unified SMS library package for Laravel 5 and PHP (Non-Laravel) to send text messages through multiple swappable drivers.
 
-## Support Drivers and Services
+## Supported Drivers and Services
 It currently ships with the following drivers:
 
 * `null` - Null (SMS, VOICE SMS only) - for test purposes, this driver does nothing.
@@ -38,7 +38,6 @@ And add the UnifiedSMS alias to config/app.php:
 ]
 ```
 You must publish the package's configuration files, (unified-sms.php also published with this)
-```
 And add the UnifiedSMS alias to config/app.php:
 ```php
 php artisan vendor:publish --tag=unified-sms
