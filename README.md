@@ -110,7 +110,7 @@ $unified_sms_config = [
 		],
 		'routemobile' => [
 			'sms' => [
-				'default_sender_id' => 'INFO'),
+				'default_sender_id' => 'INFO',
 				'server' => '',
 				'port' => '',
 				'username' => '',
