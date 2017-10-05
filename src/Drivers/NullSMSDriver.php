@@ -36,14 +36,15 @@ class NullSMSDriver extends Driver
     public function sendRequest(array $message) 
     {
 		$request_response = [
-				'status' => true,
-				'statusCode' => '200',
-				'statusDescription' => 'Success',
-				'data' => [
-							'to'=> 'null',
-							'messageId'=> 'null',
-						],
-			];
+			'status' => true,
+			'statusCode' => '200',
+			'statusDescription' => 'Success',
+			'data' => [
+						'to'=> 'null',
+						'messageId'=> 'null',
+					],
+		];
+		$request_response['driver'] = "null";
 		return json_encode($request_response);
     }   
     

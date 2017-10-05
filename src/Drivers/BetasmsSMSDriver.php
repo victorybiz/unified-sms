@@ -142,6 +142,7 @@ class BetasmsSMSDriver extends Driver
 				'data' => null,
 			];
 		}
+		$request_response['driver'] = "betasms";
 		return json_encode($request_response);
     }   
     

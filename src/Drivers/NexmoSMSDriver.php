@@ -160,6 +160,7 @@ class NexmoSMSDriver extends Driver
 				'data' => null,
 			];
 		}
+		$request_response['driver'] = "nexmo";
 		return json_encode($request_response);
     }   
     

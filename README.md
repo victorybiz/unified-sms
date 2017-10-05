@@ -176,7 +176,8 @@ On successful, `$response` will return json data
 		"to":"Recipient phone number",
 		"messageId":"The Message ID from the driver service provider",
 		"_comment":"May include additional data but depends on the response from the driver service provider"
-	}
+	},
+	"driver":"the default driver used"
 }
 ```
 On failure, `$response` will return json data
@@ -185,7 +186,8 @@ On failure, `$response` will return json data
 	"status":false,
 	"statusCode":"status error code here",
 	"statusDescription":"Status description / message",
-	"data":null
+	"data":null,
+	"driver":"the default driver used"
 }
 ```
 The failure status codes are
