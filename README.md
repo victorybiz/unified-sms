@@ -65,7 +65,7 @@ $response = UnifiedSMS::sendSMS($msg);
 Require the vendor autoload file in your php script.
 
 ```php
-    require_once 'path/to/vendor/autoload.php';
+require_once 'path/to/vendor/autoload.php';
 ```
 Create a `unified_sms_config.php` file anywhere in your project directory.
 Enter the following block into your `unified_sms_config.php` and set your DEFAULT DRIVER and API Credentials.
@@ -77,7 +77,7 @@ $unified_sms_config = [
     |--------------------------------------------------------------------------
     | This option controls the default SMS driver to use.
     |
-    | Supported: "routemobile"
+    | Supported: "null", "routemobile", "nexmo", "moreify", "betasms"
     */
     'default_sms_driver' => 'null',
 	
@@ -87,7 +87,7 @@ $unified_sms_config = [
     |--------------------------------------------------------------------------
     | This option controls the default Voice SMS driver to use.
     |
-    | Supported: "routemobile"
+    | Supported: "null"
     */
     'default_voice_sms_driver' => 'null',
 	
@@ -99,7 +99,7 @@ $unified_sms_config = [
     */
     'drivers' => [
 		'null' => [
-            'sms' => [
+			'sms' => [
 				'default_sender_id' => 'Null',
 				'api_key' => 'null'
 			],
@@ -108,7 +108,7 @@ $unified_sms_config = [
 				'api_key' => 'null',
 			],            
         ],
-        'routemobile' => [
+		'routemobile' => [
 			'sms' => [
 				'default_sender_id' => 'INFO'),
 				'server' => '',
@@ -123,7 +123,7 @@ $unified_sms_config = [
 				'api_key' => ''),
 				'api_secret' => '',
 				'callback_url' => null), // The webhook endpoint the delivery receipt for this sms is sent to. 
-										// If set, it overrides the webhook endpoint you set in Dashboard 
+									// If set, it overrides the webhook endpoint you set in Dashboard 
 			], 
         ],
 		'moreify' => [
@@ -144,17 +144,17 @@ $unified_sms_config = [
 ```
 Require the config file in your php script.
 ```php
-    require_once 'path/to/unified_sms_config.php';
+require_once 'path/to/unified_sms_config.php';
 ```
 
 ```php
-    use Victorybiz\UnifiedSMS\UnifiedSMS;
+use Victorybiz\UnifiedSMS\UnifiedSMS;
 
-    $unifiedSMS = new UnifiedSMS($unified_sms_config); 
+$unifiedSMS = new UnifiedSMS($unified_sms_config); 
 ```
 Alternatively
 ```php
-    $unifiedSMS = new \Victorybiz\UnifiedSMS\UnifiedSMS($unified_sms_config);
+$unifiedSMS = new \Victorybiz\UnifiedSMS\UnifiedSMS($unified_sms_config);
 ```
 You're good to go, send sms
 ```php
@@ -183,7 +183,7 @@ On failure, `$response` will return json data
 ```json
 {
 	"status":false,
-	"statusCode":'status error code here',
+	"statusCode":"status error code here",
 	"statusDescription":"Status description / message",
 	"data":null
 }
