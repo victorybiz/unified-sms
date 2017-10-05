@@ -106,7 +106,7 @@ $unified_sms_config = [
 				'default_caller_id' => '+1000',
 				'api_key' => 'null',
 			],            
-        ],
+		],
 		'routemobile' => [
 			'sms' => [
 				'default_sender_id' => 'INFO'),
@@ -115,7 +115,7 @@ $unified_sms_config = [
 				'username' => '',
 				'password' => '',
 			],          
-        ],
+		],
 		'nexmo' => [
 			'sms' => [
 				'default_sender_id' => 'INFO',
@@ -124,21 +124,21 @@ $unified_sms_config = [
 				'callback_url' => null), // The webhook endpoint the delivery receipt for this sms is sent to. 
 									// If set, it overrides the webhook endpoint you set in Dashboard 
 			], 
-        ],
+		],
 		'moreify' => [
 			'sms' => [
 				'project' => '',
 				'password' => '',
 			], 
-        ],
+		],
 		'betasms' => [
 			'sms' => [
 				'default_sender_id' => 'INFO',
 				'username' => '',
 				'password' => '',
 			], 
-        ],
-    ],
+		],
+	],
 ];
 ```
 Require the config file in your php script.
