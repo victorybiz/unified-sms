@@ -7,7 +7,7 @@ It currently ships with the following drivers:
 * `null` - Null (SMS, VOICE SMS only) - for test purposes, this driver does nothing.
 * `routemobile` - [RouteMobile - RouteSMS](http://routemobile.com/) (SMS only)
 * `nexmo` - [Nexmo](http://nexmo.com/) (SMS only)
-* `moreify` - [Nexmo](http://moreify.com/) (SMS only)
+* `moreify` - [Moreify](http://moreify.com/) (SMS only)
 * `betasms` - [BetaSMS](http://betasms.com/) (SMS only)
 
 ## Installation
