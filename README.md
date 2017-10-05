@@ -122,7 +122,7 @@ $unified_sms_config = [
 				'default_sender_id' => 'INFO',
 				'api_key' => '',
 				'api_secret' => '',
-				'callback_url' => null), // The webhook endpoint the delivery receipt for this sms is sent to. 
+				'callback_url' => null, // The webhook endpoint the delivery receipt for this sms is sent to. 
 									// If set, it overrides the webhook endpoint you set in Dashboard 
 			], 
 		],
