@@ -69,6 +69,7 @@ require_once 'path/to/vendor/autoload.php';
 Create a `unified_sms_config.php` file anywhere in your project directory.
 Enter the following block into your `unified_sms_config.php` and set your DEFAULT DRIVER and API Credentials.
 ```php
+<?php
 $unified_sms_config = [
     /*
     |--------------------------------------------------------------------------
