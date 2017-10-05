@@ -25,7 +25,7 @@ Once installed you need to register the service provider with the application. O
 ```php
 'providers' => [
 
-    Victorybiz\GeoIPLocation\GeoIPLocationServiceProvider::class,
+    Victorybiz\UnifiedSMS\UnifiedSMSServiceProvider::class,
 
 ]
 ```
