@@ -112,7 +112,7 @@ $unified_sms_config = [
 			'sms' => [
 				'default_sender_id' => 'INFO',
 				'server' => '',
-				'port' => '',
+				'port' => '8080',
 				'username' => '',
 				'password' => '',
 			],          
