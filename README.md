@@ -4,7 +4,7 @@ Unified SMS library package for Laravel 5 and PHP (Non-Laravel) to send text mes
 ## Supported Drivers and Services
 It currently ships with the following drivers:
 
-* `null` - Null (SMS, VOICE SMS only) - for test purposes, this driver does nothing.
+* `null` - Null (SMS, Voice SMS only) - for test purposes, this driver does nothing.
 * `routemobile` - [RouteMobile - RouteSMS](http://routemobile.com/) (SMS only)
 * `nexmo` - [Nexmo](http://nexmo.com/) (SMS only)
 * `moreify` - [Moreify](http://moreify.com/) (SMS only)
