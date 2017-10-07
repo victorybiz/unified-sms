@@ -1,4 +1,8 @@
-# unified-sms
+# Unified SMS
+[![GitHub release](https://img.shields.io/github/release/victorybiz/unified-sms.svg)](https://packagist.org/packages/victorybiz/unified-sms)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/victorybiz/unified-sms.svg?branch=master)](https://travis-ci.org/victorybiz/unified-sms)
+
 Unified SMS library package for Laravel 5 and PHP (Non-Laravel) to send text messages through multiple swappable drivers.
 
 ## Supported Drivers and Services
