@@ -15,7 +15,7 @@ It currently ships with the following drivers:
 * `betasms` - [BetaSMS](http://betasms.com/) (SMS only)
 
 ## Installation
-Install using composer, from the command line run:
+Install using composer, from the command line run: 
 
 ```bash
 $ composer require victorybiz/unified-sms
