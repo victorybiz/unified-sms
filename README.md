@@ -14,6 +14,7 @@ It currently ships with the following drivers:
 * `nexmo` - [Nexmo](http://nexmo.com/) (SMS only)
 * `moreify` - [Moreify](http://moreify.com/) (SMS only)
 * `betasms` - [BetaSMS](http://betasms.com/) (SMS only)
+* `betasms` - [MultiTexter](https://multitexter.com/) (SMS only)
 
 ## Installation
 Install using composer, from the command line run: 
