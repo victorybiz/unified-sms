@@ -22,10 +22,12 @@ Install using composer, from the command line run:
 $ composer require victorybiz/unified-sms
 ```
 ### Laravel Project
-Alternatively, you can add `"victorybiz/unified-sms": "^1.0"` to your composer.json file's `require` section and 
-then run `$ composer update`.
+Alternatively, you can add `"victorybiz/unified-sms": "^1.1.*"` to your composer.json file's `require` section and 
+then you'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
 
-Once installed you need to register the service provider with the application. Open up `config/app.php` and locate the `providers` key.
+> If you use **Laravel >= 5.5** you can skip this step and go to [**`configuration`**](https://github.com/victorybiz/unified-sms#configuration-laravel)
+
+>  If you use **Laravel < 5.5**, you need to register the service provider with the application. Open up `config/app.php` and locate the `providers` key.
 
 ```php
 'providers' => [
@@ -42,6 +44,7 @@ And add the UnifiedSMS alias to config/app.php:
 
 ]
 ```
+#### Configuration (Laravel)
 You must publish the package's configuration files, (unified-sms.php also published with this)
 And add the UnifiedSMS alias to config/app.php:
 ```php
