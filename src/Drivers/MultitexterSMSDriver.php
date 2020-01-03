@@ -175,7 +175,7 @@ class MultitexterSMSDriver extends Driver
 				'data' => null,
 			];
 		}
-		$request_response['driver'] = "betasms";
+		$request_response['driver'] = "multitexter";
 		return json_encode($request_response);
     }   
     
