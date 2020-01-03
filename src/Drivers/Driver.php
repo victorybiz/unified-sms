@@ -22,6 +22,7 @@ class Driver
     const INSUFFICIENT_CREDIT = 1008;
 	const RESPONSE_TIMEOUT = 1009;
     const INTERNAL_ERROR = 1010;
+    const ACCOUNT_SUSPENDED = 1011;
     
     public function __construct()
     {

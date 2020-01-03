@@ -82,7 +82,7 @@ $unified_sms_config = [
     |--------------------------------------------------------------------------
     | This option controls the default SMS driver to use.
     |
-    | Supported: "null", "routemobile", "nexmo", "moreify", "betasms"
+    | Supported: "null", "routemobile", "nexmo", "moreify", "betasms", "multitexter"
     */
     'default_sms_driver' => 'null',
 	
@@ -144,6 +144,14 @@ $unified_sms_config = [
 				'password' => '',
 			], 
 		],
+		'multitexter' => [
+			'sms' => [
+				'default_sender_id' => 'INFO',
+				'email' => '',
+				'password' => '',
+				'force_dnd' => true,
+			], 
+        ],
 	],
 ];
 ```
@@ -208,6 +216,7 @@ The failure status codes are
 1008			Insufficient credit
 1009			Response timeout
 1010			Internal error
+1011			Account Suspended
 ```
 
 ## Bug Reports and Issue tracking 
