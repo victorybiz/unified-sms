@@ -64,6 +64,8 @@ class MultitexterSMSDriver extends Driver
                 'sender_name' => $sender,
                 'message' => trim($text)
             ];
+            $url = $this->endpoint;
+            
             $client = $this->guzzleClient; // Guzzle HTTP Client
 			$response = $client->request('POST', $url, ['form_params' => $params, 'http_errors' => false]);
 			$status_code = $response->getStatusCode();
