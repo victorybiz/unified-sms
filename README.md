@@ -23,7 +23,7 @@ Install using composer, from the command line run:
 $ composer require victorybiz/unified-sms
 ```
 ### Laravel Project
-Alternatively, you can add `"victorybiz/unified-sms": "^1.1.*"` to your composer.json file's `require` section and 
+Alternatively, you can add `"victorybiz/unified-sms": "^1.1"` to your composer.json file's `require` section and 
 then you'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
 
 > If you use **Laravel >= 5.5** you can skip this step and go to [**`configuration`**](https://github.com/victorybiz/unified-sms#configuration-laravel)
