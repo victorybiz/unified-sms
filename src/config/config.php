@@ -68,5 +68,13 @@ return [
 				'password' => env('BETASMS_PASSWORD', ''),
 			], 
         ],
+		'multitexter' => [
+			'sms' => [
+				'default_sender_id' => env('MULTITEXTER_SENDER_ID', 'INFO'),
+				'email' => env('MULTITEXTER_EMAIL', ''),
+				'password' => env('MULTITEXTER_PASSWORD', ''),
+				'force_dnd' => env('MULTITEXTER_FORCE_DND', true),
+			], 
+        ],
     ],
 ];
