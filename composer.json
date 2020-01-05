@@ -1,7 +1,7 @@
 {
     "name": "victorybiz/unified-sms",
-    "description": "Unified SMS library package for Laravel 5 and PHP (Non-Laravel) to send text messages through multiple swappable drivers.",
-    "keywords": ["php","github","laravel","laravel 5","Open Source", "sms", "messaging", "text messaging", "routesms", "routemobile", "nexmo", "betasms", "moreify"],
+    "description": "Unified SMS library package for Laravel and PHP (Non-Laravel) to send text messages through multiple swappable drivers.",
+    "keywords": ["php","github","laravel","laravel 5", "laravel 6","Open Source", "sms", "messaging", "text messaging", "routesms", "routemobile", "nexmo", "betasms", "moreify", "multitexter"],
     "type": "library",
     "license": "MIT",
     "authors": [
