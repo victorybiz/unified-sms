@@ -30,7 +30,7 @@
                 "Victorybiz\\UnifiedSMS\\UnifiedSMSServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Victorybiz\\UnifiedSMS\\Facade"
+                "UnifiedSMS": "Victorybiz\\UnifiedSMS\\Facade"
             }
         }
     }
