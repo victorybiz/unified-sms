@@ -22,5 +22,16 @@
         "psr-4": {
             "Victorybiz\\UnifiedSMS\\": "src"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Victorybiz\\UnifiedSMS\\UnifiedSMSServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Victorybiz\\UnifiedSMS\\Facade"
+            }
+        }
     }
 }
