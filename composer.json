@@ -30,7 +30,7 @@
                 "Victorybiz\\UnifiedSMS\\UnifiedSMSServiceProvider"
             ],
             "aliases": {
-                "UnifiedSMS": "Victorybiz\\UnifiedSMS\\Facade"
+                "UnifiedSMS": "Victorybiz\\UnifiedSMS\\Facades\\UnifiedSMSFacade"
             }
         }
     }
